@@ -11,6 +11,9 @@ public class App {
         nums.pop();
         nums.peek();
         nums.isEmpty();
-
+        nums.pop();
+        nums.pop();
+        nums.pop();
+        nums.isEmpty();
     }
 }
