@@ -17,7 +17,6 @@ public class Stack<T> {
     {
         T top = stack.get(stack.size() - 1);
         stack.remove(stack.size() - 1);
-        System.out.println("index taken: " + stack.size());
         return top;
     }
 
