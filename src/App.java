@@ -9,6 +9,8 @@ public class App {
         System.out.println(nums.isEmpty());
         System.out.println(nums.pop());
         System.out.println(nums.peek());
+        System.out.println(nums.pop());
+        System.out.println(nums.isEmpty());
         nums.pop();
         System.out.println(nums.isEmpty());
     }

@@ -15,8 +15,10 @@ public class Stack<T> {
 
     public T pop()
     {
-        stack.remove(stack.get(stack.size() - 1));
-        return stack.get(stack.size() - 1);
+        T top = stack.get(stack.size() - 1);
+        stack.remove(stack.size() - 1);
+        System.out.println("index taken: " + stack.size());
+        return top;
     }
 
     public T peek()
