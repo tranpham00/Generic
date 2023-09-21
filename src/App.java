@@ -18,7 +18,7 @@ public class App {
 
         System.out.println(postFix("67+"));
         System.out.println(postFix("98*"));
-        
+        System.out.println(postFix("12+57*+"));
     }
 
     public static int postFix(String operation)
